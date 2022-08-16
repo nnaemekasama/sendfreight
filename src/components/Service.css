@@ -1,0 +1,114 @@
+
+.container {
+    background-color: white;
+    margin: .8em 4em;
+    /* border: 2px solid rgb(190, 176, 176); */
+    filter: drop-shadow(2px 4px 8px rgb(172, 145, 145));
+    overflow: hidden;
+}
+
+.container h3 {
+    font-size: .8rem;
+    width: fit-content;
+    margin: 1em 1.7em;
+}
+.service-btns {
+    margin: 1em auto;
+}
+
+.button, .button1 {
+    display: inline-flex;
+    height: 3em;
+    width: 80%;
+    margin: 1em auto;
+    justify-content: space-between;
+    overflow: hidden;
+    cursor: pointer;
+    align-items: center;
+    color: grey;
+    border: .5px thin black;
+    padding: 1em;
+    
+}
+
+.button:hover, .button1:hover {
+    background: lightblue;
+    color: white;
+    padding: 1.3em;
+    border: none;
+}
+.button {
+    background: blue;
+    color: white;
+    padding: 1.5em;
+    border: none;
+
+    display: inline-flex;
+    height: 3em;
+    width: 80%;
+    margin: 1em auto;
+    justify-content: space-between;
+    overflow: hidden;
+    cursor: pointer;
+    align-items: center;
+
+
+    padding: 1em;
+}
+
+.btn-text {
+    font-size: .7rem;
+}
+
+.faplane {
+    font-size: 1.7rem;
+    color: grey;
+    
+}
+.btn-row {
+    display: grid;
+    
+}
+
+@media (min-width:480px) {
+    .btn-row {
+        display: flex;
+    }
+
+    .button, .button1 {
+        width: 45%;
+    }
+
+    .container h3 {
+      width: 89%;
+      margin: 1em auto;
+    }
+
+    .service-btns {
+       margin: 1em; 
+       
+    }
+}
+@media (min-width:775px) {
+    .service-btns {
+        display: flex;
+        
+        
+    }
+
+    .btn-row {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .button, .button1 {
+        width: 45%;
+        
+    }
+
+    .container h3 {
+        
+        width: 93%;
+    }
+}

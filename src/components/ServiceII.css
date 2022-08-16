@@ -1,0 +1,106 @@
+
+.fainfo {
+    margin: 0 1.7em;
+    margin-top: 1em;
+    
+}
+
+.twotwins {
+    margin: 0 1.7em;
+    max-width: 300px;
+}
+
+.twotwins button {
+    width: 20%;
+    color: rgb(22, 20, 20);
+    background: white;
+    height: 25px;
+    font-size: .65rem;
+    border: 1px solid grey;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0 .5em;
+    margin: .3em 0;
+    min-width: fit-content;
+}
+
+.twotwins button:focus,
+.twotwins button:hover {
+    background: lightblue;
+}
+
+.input-field {
+    width: 70%;
+}
+.input-field2 {
+    width: 55%;
+}
+
+.input-field, .input-field2 {
+    height: 20px;
+    background-color: white;
+    margin: 1em 1.7em;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    border: none;
+    justify-content: center;
+    background: rgb(190, 174, 174);
+    
+}
+
+.input-field input, .input-field2 input {
+    width: 100%;
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 80%;
+    color: white;
+    background: rgb(190, 174, 174);
+}
+
+.input-field .faloc, .input-field2 .faloc {
+    font-size: .8rem;
+    margin-bottom: .2em;
+}
+.input-field span, .input-field2 span {
+   margin-right: .5em;
+}
+
+@media (min-width: 775px) {
+    /* .flex {
+        display: flex;
+    } */
+    .form-input {
+        display: flex;
+        width: 100%;
+        
+    }
+    .form-input .input-field {
+          margin: 1em 1.7em;
+          display: inline-flex;
+    }
+
+    .flex form {
+        display: flex;
+    }
+    .flex form .input-field2 {
+        display: inline-flex;
+        width: 55%;
+        margin: 1em 1.7em;
+    }
+   
+} 
+
+@media (min-width: 1000px) {
+        .topflex {
+            display: flex;
+            align-items: center;
+        }
+        .twotwins {
+            width: 18%;
+        }
+        .twotwins button {
+            width: 50%;
+        }
+}

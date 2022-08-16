@@ -1,0 +1,87 @@
+.srv-flex {
+    margin: 0em 1.7em;
+}
+
+
+.add-container h3 {
+    width: fit-content;
+    margin: 1em 1.7em;
+}
+
+
+
+@media (min-width:740px) {
+    .srv-flex {
+        display: flex;
+       
+    }
+
+    .add-toggle {
+        width: 50%;
+        align-items: center;
+        
+    }
+}
+
+.srv-flex p {
+    font-size: .55rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+.srv-flex h4 {
+    margin-bottom: .3em;
+    font-size: .72em;
+    font-weight: 700;
+}
+
+.add-toggle {
+    
+    display: flex;
+    align-items: center;
+    
+
+}
+.add-toggle .add-toggle-click {
+    width: fit-content;
+    
+    
+}
+
+
+
+
+
+.add-toggle .add-toggle-text {
+    
+    width: 85%;
+}
+
+.add-toggle-slider, .new-add-toggle-slider {
+    min-width: 20px;
+    width: 25px;
+    height: 13px;
+    background-color: #c1bdd4;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #c1bdd4;
+    box-sizing: content-box;
+
+}
+
+.add-toggle-slider-circle, .new-add-toggle-slider .add-toggle-slider-circle {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.new-add-toggle-slider {
+    background-color: blue;
+    border-color: blue;
+    justify-content: flex-end;
+}

@@ -1,0 +1,136 @@
+.cargo-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 1.7em;
+    
+    align-items: center;
+}
+
+.cargo-top h3 {
+    font-size: .8rem;
+    width: fit-content;
+    margin: 0;
+
+}
+.cargo-toggle {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.cargo-toggle .toggle-txt {
+    font-size: .66rem;
+    font-weight: 700;
+}
+ .cargo-toggle-slider, .changed-cargo-toggle-slider {
+    min-width: 20px;
+    width: 25px;
+    height: 13px;
+    background-color: #c1bdd4;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #c1bdd4;
+    box-sizing: content-box;
+    
+
+}
+
+.slider-circle, .changed-cargo-toggle-slider .slider-circle {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+} 
+
+.changed-cargo-toggle-slider {
+    background-color: blue;
+    border-color: blue;
+    justify-content: flex-end;
+}
+
+.cargo-btns {
+    margin: 1em 1.7em;
+    width: fit-content;
+}
+.cargo-btns button {
+    width: 28%;
+    min-width: fit-content;
+    font-size: .66rem;
+    height: 25px;
+    background: rgb(190, 174, 174);
+    border: none;
+    border-radius: 3px;
+    color: grey;
+}
+
+.cargo-btns button:hover,
+.cargo-btns button:focus {
+    background: white;
+    color: blue;
+    border: 1px solid rgb(190, 174, 174);;
+}
+
+.cargo-inputs {
+   
+    margin: 1.5em 1.7em;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    max-width: 15em;
+    
+}  
+.cargo-inputs div input {
+    height: 20px;
+    outline: none;
+    overflow: hidden;
+    
+
+}
+
+.cargo-inputs div input::placeholder {
+    font-size: .55rem;
+    position: relative;
+    left: 3em;
+
+}
+
+.cargo-inputs div label {
+    position: absolute;
+    z-index: 1;
+    background: white;
+    top: -6px;
+    font-size: .55rem;
+    font-weight: 700;
+    left: 5px;
+    
+}
+
+.form-group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    min-width: 4em;
+    
+}
+
+@media (min-width:625px) {
+    .cargo-top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+
+    .cargo-top .cargo-toggle {
+       
+        /* width: fit-content; */
+    }
+}
