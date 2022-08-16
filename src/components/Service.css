@@ -7,6 +7,12 @@
     overflow: hidden;
 }
 
+@media (max-width: 320px) {
+    .container {
+        margin: .8em 2em;
+    }
+}
+
 .container h3 {
     font-size: .8rem;
     width: fit-content;
