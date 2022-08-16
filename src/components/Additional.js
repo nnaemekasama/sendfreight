@@ -13,7 +13,6 @@ export default function Additional() {
         <div className="container">
             <div className="add-container">
             <h3 className="add-title">Additional Services</h3>
-            <p>deez nutz</p>
             <div className="srv-flex">
                 <div className="add-toggle">
                 <div className="add-toggle-click">
